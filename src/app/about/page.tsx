@@ -11,7 +11,7 @@ export default async function AboutPage() {
 
     return (
       <div className="text-center">
-        <h1 className="text-2xl font-bold mb-4">About Page (SSR)</h1>
+        <h1 className="text-2xl font-bold mb-4">About Page </h1>
         <p>Name: {author.name}</p>
         <p>Email: {author.email}</p>
         <p>Company: {author.company.name}</p>

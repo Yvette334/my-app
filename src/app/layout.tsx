@@ -15,13 +15,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <header className=" flex gap-6">
+      <header className=" flex gap-6 m-6 space-x-6 justify-center">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/blog">Blog</Link>
       </header>
-        <main className="p-6">{children}</main>
-        <footer>&copy;2025 </footer>
+        <main className="p-10">{children}</main>
+        <footer className="text-center">&copy;2025 </footer>
       </body>
     </html>
   );
