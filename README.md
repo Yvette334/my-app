@@ -13,7 +13,7 @@ This project was built as part of the **Next.js Assignment** covering key Next.j
 ## 🏗️ Project Structure
 
 
-
+```
 app/
 ├── layout.tsx # Main layout (header, footer)
 ├── page.tsx # Home page (CSR)
@@ -24,7 +24,7 @@ app/
 ├── page.tsx # Blog list page (SSG)
 └── [id]/
 └── page.tsx # Blog details page (ISR)
-
+```
 
 ---
 
